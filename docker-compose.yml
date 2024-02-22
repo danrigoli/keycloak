@@ -11,4 +11,4 @@ services:
       - KEYCLOAK_ADMIN_PASSWORD=admin
     volumes:
       - ./keycloak:/opt/keycloak/standalone/configuration
-      - ./themes:/opt/keycloak/themes
+      - ./themes:/opt/keycloak/providers
